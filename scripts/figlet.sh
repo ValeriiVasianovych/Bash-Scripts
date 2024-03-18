@@ -7,8 +7,8 @@ function showFiglet() {
   duration=30
   for (( i=0; i < duration; i++ )); do
     clear
-    figlet "$text" | lolcat
-    sleep 0.5
+    figlet "# $text #" | lolcat
+    sleep 0.2
   done
 }
 
